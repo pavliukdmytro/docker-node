@@ -1,5 +1,11 @@
 # Start project Node js  with docker
 
+docker-compose -f docker-compose.dev.yml up --build - build project
+
+docker-compose up -d - start production
+
+
+
 docker build -t getting-started . - build the container image  
 -t - flag tags our image.
 getting-started - container's name
